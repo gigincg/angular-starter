@@ -1,0 +1,6 @@
+<div class="flex mt-16 items-center h-full w-full justify-center">
+  	<form class="m-auto items-center bg-gray-100 shadow-lg p-10">
+    	<input [(ngModel)]="url" [ngModelOptions]="{standalone: true}" class="rounded-l-lg p-4 border-2 border-r-0 mr-0 text-gray-800 border-gray-200 bg-white" placeholder="URL"/>
+		<button (click)="shorten()" class="px-8 rounded-r-lg bg-green-600  text-white font-bold p-4 uppercase border-yellow-500 border-t border-b border-r">Shorten</button>
+	</form>
+</div>
