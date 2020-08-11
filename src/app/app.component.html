@@ -1,37 +1,9 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-  <div class="h-screen flex justify-center items-center">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg p-4">
-      <img class="w-full" src="../assets/angular.png" alt="Sunset in the mountains" />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2"> Angular-Tailwind </div>
-        <p class="text-gray-700 text-base">
-          Angular Starter with Tailwind CSS
-        </p>
-      </div>
-      <div class="px-6 py-4">
-        <span *ngFor="let tag of tags"
-              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mt-2">
-          {{tag}}
-        </span>
-      </div>
+<div class="w-screen h-screen py-4">
+  <div class="h-full max-w-6xl mx-auto flex flex-col rounded overflow-hidden shadow-lg p-4">
+    <div class="flex items-center text-2xl">
+      <img class="max-w-xs w-24" src="../assets/angular.png" alt="Sunset in the mountains" />
+      Angular Tailwind
     </div>
+    <router-outlet></router-outlet>
   </div>
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
-
-<router-outlet></router-outlet>
+</div>
